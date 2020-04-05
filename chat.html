@@ -9,7 +9,7 @@
      <link rel="stylesheet" href="css/styles.css" /> 
      <title>Chat:Kakao Clone</title>
 </head>
-<body>
+<body class="chats-body">
     <div class="status-bar">
         <div class="status-bar_column">
          <span class="status-bar_clock">13:54</span>
@@ -39,25 +39,24 @@
             </span>
         </div>
     </header>
-    <main class="chat">
+    <main class="chat-screen">
         <ul class="chat__messages">
             <span class="chat__timestamp">Friday, January 11, 2019</span>
             <li class="incoming-message message">
                 <img src="images/avatar.PNG" clsss="g-avatar message__avatar">
                 <div class="message_content">
-                    <span class="message_author">Best Friend</spna>
-                    <div class="message__bubble">
+                    <span class="message__bubble">
                         Cograts I love you!
-                    </div>
+                    </span>
+                 <span class="message__author">Best Friend</span>
                 </div>
-                <span class="message__timestamp"></span>
             </li>
-            <li class="incoming-message message">
+            <li class="sent-message message">
                 <span class="message__timestamp"></span>
                 <div class="message_content">
-                    <div class="message__bubble">
+                    <span class="message__bubble">
                         Thank you See you soon!
-                    </div>
+                    </span>
                 </div>                
             </li>
         </ul>
